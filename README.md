@@ -9,13 +9,13 @@
 
 Available on Docker Hub as [`docker.io/ricardbejarano/nginx_exporter`](https://hub.docker.com/r/ricardbejarano/nginx_exporter):
 
-- [`0.8.0`, `latest` *(Dockerfile)*](Dockerfile)
+- [`0.9.0`, `latest` *(Dockerfile)*](Dockerfile)
 
 ### RedHat Quay
 
 Available on RedHat Quay as [`quay.io/ricardbejarano/nginx_exporter`](https://quay.io/repository/ricardbejarano/nginx_exporter):
 
-- [`0.8.0`, `latest` *(Dockerfile)*](Dockerfile)
+- [`0.9.0`, `latest` *(Dockerfile)*](Dockerfile)
 
 
 ## Features

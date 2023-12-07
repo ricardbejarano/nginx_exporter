@@ -11,7 +11,7 @@ RUN [ "$(sha256sum /tmp/nginx-prometheus-exporter.tar.gz | awk '{print $1}')" = 
     mkdir -p /go/src/github.com/nginxinc && \
     mv /tmp/nginx-prometheus-exporter-$VERSION /go/src/github.com/nginxinc/nginx-prometheus-exporter && \
     cd /go/src/github.com/nginxinc/nginx-prometheus-exporter && \
-      make
+      make nginx-prometheus-exporter
 
 RUN mkdir -p /rootfs/bin && \
       cp /go/src/github.com/nginxinc/nginx-prometheus-exporter/nginx-prometheus-exporter /rootfs/bin/ && \

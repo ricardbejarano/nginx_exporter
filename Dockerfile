@@ -1,7 +1,7 @@
 FROM golang:1-alpine AS build
 
-ARG VERSION="1.1.0"
-ARG CHECKSUM="febae74584b055b9d604c59e4e934d15e7e32a73cfdb3da6e9b61ee116c83537"
+ARG VERSION="1.2.0"
+ARG CHECKSUM="234318549abbcc26701920cc70e6936e8fb66440569898f5c85e7e37410293c4"
 
 ADD https://github.com/nginxinc/nginx-prometheus-exporter/archive/refs/tags/v$VERSION.tar.gz /tmp/nginx-prometheus-exporter.tar.gz
 
